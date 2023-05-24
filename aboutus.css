@@ -1,0 +1,724 @@
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	font-family: sans-serif;
+}
+
+#loader {   
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    background: #fff url('loader.gif') no-repeat center;
+    z-index: 9999;
+}
+
+#navtop{
+	background-color: #6D6D6D;
+	color: white;
+	padding:12px 0;
+}
+
+#cno{
+	display: flex;
+	align-self: center;
+	justify-content: center;
+}
+
+#cno i{
+	font-size: 20px;
+	color: white;
+}
+
+#cno i:hover{
+	color: #40DB30;
+}
+
+#cno a{
+	text-decoration: none;
+	color: white;
+}
+
+#cno a:hover{
+	color: yellow;
+}
+
+#loct{
+	display: flex;
+	align-self: center;
+	justify-content: center;
+}
+
+#loct i{
+	font-size: 20px;
+	color: white;
+}
+
+#loct i:hover{
+	color: red;
+}
+
+#loct a{
+	text-decoration: none;
+	color: white;
+}
+
+#loct a:hover{
+	color: yellow;
+}
+
+#fonts i{
+	color: white;
+	height: 30px;
+	width: 30px;
+	font-size: 16px;
+	padding-top: 7px;
+	text-align: center;
+	background-color: #5A5A5A;
+}
+
+#fb:hover{
+	border-radius: 20%;
+	color: blue;
+	background-color: white;
+}
+
+#twt:hover{
+	border-radius: 20%;
+	color: blue;
+	background-color: white;
+}
+
+#inst:hover{
+	border-radius: 20%;
+	color: pink;
+	background-color: white;
+}
+
+#gogle:hover{
+	border-radius: 20%;
+	color: red;
+	background-color: white;
+}
+
+/*Main Nav Bar*/
+
+#mainnav{
+	background-color: rgba(0, 0, 0, 0.8);
+}
+
+#menubar{
+	font-size: 25px;
+}
+
+#menubar i span{
+	font-size: 15px;
+	padding: 0 5px;
+	color: red;
+}
+
+#cart-icon{
+	color: green;
+}
+
+#navbicon {
+	font-size: 25px;
+}
+
+#navbicon:hover{
+	color: blue;
+}
+
+#navlist li a{
+	text-decoration: none;
+	color: white;
+	font-size: 19px;
+}
+
+#navlist li a:hover{
+	color: #EEC80C;
+}
+
+/*main page aboutus*/
+
+.about1{
+	overflow: hidden;
+    position: relative;
+    }
+
+.about2{
+	width: 100%;
+	height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.2);
+    }
+
+.about2 h1{
+	text-transform: uppercase;
+	letter-spacing: 5px;
+	color: yellow;
+	font-size: 300%;
+	margin: 17% 0 0 0;
+}
+
+.about2 span{
+	position: relative;
+	font-weight: bold;
+	top: -15px;
+	font-size: 40px;
+}
+
+
+/*Horizontal Cards*/
+
+#cfluid{
+	margin: 80px 0 0 0;
+}
+
+.cods{
+	border: none;
+}
+
+#hcrdicon{
+	padding-top: 20px;
+}
+
+#hcrdicon i{
+	width: 90px;
+	height: 90px;
+	font-size: 30px;
+	border-radius: 50%;
+	background-color: yellow;
+	color: black;
+	padding-top: 30px;
+}
+
+#hocards a{
+	text-decoration: none;
+	color: black;
+}
+
+#hocards a h4{
+	font-weight: bold;
+}
+
+#hocards p{
+	margin-top: 20px;
+} 
+
+/*Our Team*/
+
+#oteam{
+	margin-bottom: 100px;
+}
+
+#abcrds{ 
+	border: none;
+	position: relative;
+	overflow: hidden;
+}
+
+#fonts2{
+	width: 80%;
+	position: absolute;
+	bottom: -100%;
+	left: 10%;	
+	display: flex;
+	justify-content: space-evenly;
+	transition: 0.5s;
+}
+
+#abcrds:hover #fonts2{
+	bottom: 5px;
+}
+
+#abcrds h5{
+	margin: 10px 0 5px 0;
+}
+
+#abcrds a{
+	text-decoration: none;
+	color: black;
+}
+
+#abcrds a:hover{
+	color: #6D29A9;
+}
+
+#abcrds p{
+	font-size: 17px;
+	margin: 0 0 40px 0;
+}
+
+#fonts2 a{
+	text-decoration: none;
+	color: black;
+	width: 33px;
+	height: 33px;
+	border-radius: 5px;
+	background-color: #F1F0F0;
+	padding-top: 5px;
+}
+
+#fonts2 a:hover{
+	color: white;
+	background-color: #6D29A9;
+}
+
+/*Footer*/
+
+#ftr{
+	background-color: #343a40;
+}
+
+#footer1{
+	color: white;
+	background-color: #343a40;
+}
+
+#footer1 p{
+	color: #777777;
+}
+
+/*#offer h4{
+	margin-top: 50px;
+}*/
+
+#offer1{
+	margin: 25px 0 30px 0;
+}
+
+#offer1 a{
+	text-decoration: none;
+	color: #D3D3D3;
+	line-height: 35px;
+}
+
+#offer1 a:hover{
+	color: #F8F109;
+}
+
+/*#info h4{
+	margin-top: 50px;
+}*/
+
+#info1{
+	margin: 25px 0 30px 0;
+}
+
+#info1 a{
+	text-decoration: none;
+	color: #D3D3D3;;
+	line-height: 35px;
+}
+
+#info1 a:hover{
+	color: #F8F109;
+}
+
+/*#nltr h4{
+	margin: 50px 0 35px 0;
+}*/
+
+
+#footer2{
+	color: white;
+	background-color: #343a40;
+}
+
+#footer21{
+	font-size: 19px;
+}
+
+#footer21 i{
+	text-align: center;
+	margin-left: 12px;
+	font-size: 25px;
+}
+
+#footer22 a{
+	text-decoration: none;
+	font-size: 18px;
+	color: white;
+}
+
+#footer23 i{
+	width: 30px;
+	height: 30px;
+	color: white;
+	text-align: center;
+	padding-top: 8px;
+	border-radius: 5px;
+	background-color: #676668;
+}
+
+#footer23 a{
+	text-decoration: none;
+	font-size: 17px;
+	color: white;
+}
+
+#footer23 a:hover{
+	color: #F8F82A;
+}
+
+#footer24 i{
+	width: 30px;
+	height: 30px;
+	color: white;
+	text-align: center;
+	padding-top: 7px;
+	border-radius: 5px;
+	background-color: #676668;
+}
+
+#footer24 a{
+	text-decoration: none;
+	color: white;
+}
+
+#footer24 a:hover{
+	color: #F8F82A;
+}
+
+#ficons i{
+	width: 30px;
+	height: 30px;
+	color: white;
+	text-align: center;
+	padding-top: 8px;
+	border-radius: 5px;
+	background-color: #676668;
+}
+
+#ficons i:hover{
+	background-color: #6046b6;
+}
+
+#footer3 h6{
+	font-size: 17px;
+	font-weight: bold;
+	color: #777777;
+	background-color: #343a40;
+}
+
+
+
+/*Media Quries*/
+
+@media screen and (max-width: 319px){
+
+.about1 img{
+	width: 100%;
+	height: 350px;
+	object-fit: cover;
+}
+
+.about2 h1{
+	color: white;
+	font-size: 250%;
+	margin: 125px 0 0 0;
+}
+
+.about2 span{
+	top: -25px;
+}
+
+/*Horizontal cards*/
+
+#hocards a h4{
+	text-align: center;
+	margin-top: 20px;
+	font-weight: bold;
+}
+
+#hocards p{
+	text-align: center;
+	margin-top: 20px;
+}
+}
+
+@media screen and (max-width: 575px) and (min-width: 320px){
+
+.about1 img{
+	width: 100%;
+	height: 420px;
+	object-fit: cover;
+}
+
+.about2 h1{
+	color: white;
+	font-size: 300%;
+	margin: 160px 0 0 0;
+}
+
+.about2 span{
+	top: -25px;
+}
+
+/*Horizontal cards*/
+
+#hocards a h4{
+	text-align: center;
+	margin-top: 20px;
+	font-weight: bold;
+}
+
+#hocards p{
+	text-align: center;
+	margin: 20px 20px 0 20px;
+}
+
+/*Our Team*/
+
+#oteam{
+	margin-bottom: 100px;
+}
+
+#abcrds{ 
+	border: none;
+	position: relative;
+	overflow: hidden;
+}
+
+#fonts2{
+	width: 90%;
+	position: absolute;
+	bottom: 5px;
+	left: 5%;	
+	display: flex;
+	justify-content: space-evenly;
+	transition: 0.5s;
+}
+
+#abcrds h5{
+	margin: 10px 0 5px 0;
+}
+
+#abcrds a{
+	text-decoration: none;
+	color: black;
+}
+
+#abcrds a:hover{
+	color: #6D29A9;
+}
+
+#abcrds p{
+	font-size: 17px;
+	margin: 0 0 40px 0;
+}
+
+#fonts2 a{
+	text-decoration: none;
+	color: white;
+	background-color: orange;
+	width: 35px;
+	height: 35px;
+	border-radius: 8px;
+	padding-top: 7px;
+}
+}
+
+@media screen and (max-width: 767px) and (min-width: 576px){
+
+.about1 img{
+	width: 100%;
+	height: 450px;
+	object-fit: cover;
+}
+
+.about2 h1{
+	color: yellow;
+	font-size: 450%;
+	margin: 160px 0 0 0;
+}
+
+.about2 span{
+	top: -25px;
+}
+
+/*Our Team*/
+
+#oteam{
+	margin-bottom: 100px;
+}
+
+#abcrds{ 
+	border: none;
+	position: relative;
+	overflow: hidden;
+}
+
+#fonts2{
+	width: 100%;
+	position: absolute;
+	bottom: 5px;
+	left: 0;	
+	display: flex;
+	justify-content: space-evenly;
+	transition: 0.5s;
+}
+
+#abcrds h5{
+	margin: 10px 0 5px 0;
+}
+
+#abcrds a{
+	text-decoration: none;
+	color: black;
+}
+
+#abcrds a:hover{
+	color: #6D29A9;
+}
+
+#abcrds p{
+	font-size: 17px;
+	margin: 0 0 40px 0;
+}
+
+#fonts2 a{
+	text-decoration: none;
+	color: black;
+	width: 33px;
+	height: 33px;
+	border-radius: 50%;
+	padding-top: 5px;
+}
+
+#fonts2 a:hover{
+	color: white;
+	background-color: #6D29A9;
+}
+}
+
+@media screen and (max-width: 1023px) and (min-width: 768px){
+
+.about1 img{
+	width: 100%;
+	height: 450px;
+	object-fit: cover;
+}
+
+.about2 h1{
+	color: yellow;
+	font-size: 500%;
+	margin: 160px 0 0 0;
+}
+
+.about2 span{
+	top: -25px;
+}
+
+/*Our Team*/
+
+#oteam{
+	margin-bottom: 100px;
+}
+
+#abcrds{ 
+	border: none;
+	position: relative;
+	overflow: hidden;
+}
+
+#fonts2{
+	width: 80%;
+	position: absolute;
+	bottom: 5px;
+	left: 10%;	
+	display: flex;
+	justify-content: space-evenly;
+	transition: 0.5s;
+}
+
+#abcrds h5{
+	margin: 10px 0 5px 0;
+}
+
+#abcrds a{
+	text-decoration: none;
+	color: black;
+}
+
+#abcrds a:hover{
+	color: #6D29A9;
+}
+
+#abcrds p{
+	font-size: 17px;
+	margin: 0 0 40px 0;
+}
+
+#fonts2 a{
+	text-decoration: none;
+	color: black;
+	width: 33px;
+	height: 33px;
+	border-radius: 10%;
+	padding-top: 5px;
+}
+
+#fonts2 a:hover{
+	color: white;
+	background-color: #6D29A9;
+}
+}
+
+@media screen and (max-width: 1199px) and (min-width: 1024px){
+
+#fonts2{
+	width: 80%;
+	position: absolute;
+	bottom: 5px;
+	left: 10%;	
+	display: flex;
+	justify-content: space-evenly;
+	transition: 0.5s;
+}
+}
+
+@media screen and (max-width: 1439px) and (min-width: 1024px){
+
+.about1 img{
+	width: 100%;
+	height: 500px;
+	object-fit: cover;
+}
+
+.about2 h1{
+	color: yellow;
+	font-size: 500%;
+	margin: 180px 0 0 0;
+}
+
+.about2 span{
+	top: -25px;
+}
+} 
+
+@media screen and (min-width: 1440px){
+
+.about1 img{
+	width: 100%;
+	height: 450px;
+	object-fit: cover;
+}
+
+.about2 h1{
+	color: yellow;
+	font-size: 550%;
+	margin: 160px 0 0 0;
+}
+
+.about2 span{
+	top: -25px;
+}
+} 

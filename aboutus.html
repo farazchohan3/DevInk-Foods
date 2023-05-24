@@ -1,0 +1,500 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>About Us</title>
+    <link rel="icon" type="text/css" href="ffImages/tabout.png" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+    />
+
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+
+    <script type="text/javascript" src="jquery.scrollUp.min.js"></script>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" type="text/css" href="aboutus.css" />
+
+    <script>
+      window.onload = function () {
+        document.getElementById("loader").style.display = "none";
+        document.getElementById("content").style.display = "block";
+      };
+    </script>
+  </head>
+  <body>
+    <div id="loader"></div>
+    <div id="content">
+      <div class="container-fluid">
+        <div class="row" id="navtop">
+          <div class="col-lg-4 text-center py-2 py-lg-0" id="cno">
+            <i class="fa-solid fa-phone"></i>&nbsp;&nbsp;
+            <a href="#">+1 718-999-3939</a>
+          </div>
+
+          <div class="col-lg-4 text-center py-2 py-lg-0" id="loct">
+            <i class="fa-solid fa-location-dot"></i>&nbsp;&nbsp;
+            <a href="#">514 S.Magnolia St.Orlando, FL 32806</a>
+          </div>
+
+          <div class="col-lg-4 text-center py-2 py-lg-0" id="fonts">
+            <a href="https://www.facebook.com/" target="_blank"
+              ><i class="fa-brands fa-facebook-f mx-2" id="fb"></i
+            ></a>
+            <a href="https://twitter.com/?lang=en" target="_blank"
+              ><i class="fa-brands fa-twitter mx-2" id="twt"></i
+            ></a>
+            <a href="https://www.instagram.com/" target="_blank"
+              ><i class="fa-brands fa-instagram mx-2" id="inst"></i
+            ></a>
+            <a
+              href="https://support.google.com/answer/2451065?hl=en"
+              target="_blank"
+              ><i class="fa-brands fa-google-plus-g mx-2" id="gogle"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+
+      <nav class="navbar navbar-expand-md sticky-top py-2" id="mainnav">
+        <div class="container-fluid p-2">
+          <button
+            class="navbar-toggler mx-2"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarTogglerDemo03"
+            aria-controls="navbarTogglerDemo03"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span><i class="fa-solid fa-bars text-white fs-4"></i></span>
+          </button>
+
+          <a class="navbar-brand mx-md-4 fs-4 text-warning fw-bold" href="#"
+            ><i class="fa-solid fa-kitchen-set text-warning fs-3"></i> Your
+            Food</a
+          >
+          <i
+            class="fa-solid fa-ellipsis-vertical navbar-brand d-block d-md-none text-white"
+            data-bs-toggle="offcanvas"
+            data-bs-target="#offcanvasRight"
+            aria-controls="offcanvasRight"
+            id="navbicon"
+          ></i>
+
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+            <ul class="navbar-nav mx-auto" id="navlist">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html" target="_parent">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About Us</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="#">Typography</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contacts</a>
+              </li>
+            </ul>
+
+            <div class="d-sm-block d-none mx-4" id="menubar">
+              <!-- <i class="fa-solid fa-cart-shopping" id="scart"></i>&nbsp; -->
+              <i
+                class="fa-solid fa-bars text-white"
+                data-bs-toggle="offcanvas"
+                data-bs-target="#offcanvasRight"
+                aria-controls="offcanvasRight"
+              ></i>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+      <div
+        class="offcanvas offcanvas-end"
+        tabindex="-1"
+        id="offcanvasRight"
+        aria-labelledby="offcanvasRightLabel"
+      >
+        <div class="offcanvas-header">
+          <h3 class="offcanvas-title" id="offcanvasRighLabel">Gallery</h3>
+          <button
+            type="button"
+            class="btn-close"
+            data-bs-dismiss="offcanvas"
+            aria-label="Close"
+          ></button>
+        </div>
+        <div class="offcanvas-body">
+          <div class="container">
+            <div class="row">
+              <img class="col-6 img-fluid p-2" src="ffImages/bkabout.jpg" />
+              <img class="col-6 img-fluid p-2" src="ffImages/cara1.jpg" />
+              <img class="col-6 img-fluid p-2" src="ffImages/cara2.jpg" />
+              <img class="col-6 img-fluid p-2" src="ffImages/cara3.jpg" />
+              <img class="col-6 img-fluid p-2" src="ffImages/Pizza2.jpg" />
+              <img class="col-6 img-fluid p-2" src="ffImages/drinks.jpg" />
+              <img class="col-6 img-fluid p-2" src="ffImages/salads.jpg" />
+              <img class="col-6 img-fluid p-2" src="ffImages/burger5.jpg" />
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- main Page -->
+
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-12 about1 px-0">
+            <img class="img-fluid" src="ffImages/bkabout.jpg" />
+
+            <div class="about2">
+              <div class="col-12">
+                <h1>About us</h1>
+                <span class="text-warning">______</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Horizontal Cards -->
+
+      <div class="container-fluid bg-light" id="cfluid">
+        <div class="container">
+          <div class="row">
+            <div class="card bg-light col-lg-4 col-md-6 cods my-3">
+              <div class="row">
+                <div class="col-sm-4 col-12 text-center" id="hcrdicon">
+                  <i class="fa-solid fa-truck text-center"></i>
+                </div>
+
+                <div class="col-sm-8 col-12">
+                  <div class="card-body" id="hocards">
+                    <a href="#"
+                      ><h4 class="card-title">Free Delivery Service</h4></a
+                    >
+                    <p>
+                      Lotus advenas ducunt ad gemna. Ubi est domesticus domina
+                      heu.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="card bg-light col-lg-4 col-md-6 cods my-3">
+              <div class="row">
+                <div class="col-sm-4 col-12 text-center" id="hcrdicon">
+                  <i class="fa-solid fa-pizza-slice text-center"></i>
+                </div>
+
+                <div class="col-sm-8 col-12">
+                  <div class="card-body" id="hocards">
+                    <a href="#"
+                      ><h4 class="card-title">20+ Pizza Options</h4></a
+                    >
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
+                      sed diam nonummy nibh.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div
+              class="card bg-light col-lg-4 col-md-6 mx-md-auto mx-0 cods my-3"
+            >
+              <div class="row">
+                <div
+                  class="col-sm-4 col-12 mx-auto mx-sm-0 text-center"
+                  id="hcrdicon"
+                >
+                  <i class="fa-solid fa-leaf text-center"></i>
+                </div>
+
+                <div class="col-sm-8 col-12 mx-auto mx-sm-0">
+                  <div class="card-body" id="hocards">
+                    <a href="#"
+                      ><h4 class="card-title">Fresh Ingredients</h4></a
+                    >
+                    <p>
+                      Albus, dexter particulas grauiter consumere de ferox,
+                      bi-color abactus.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Our Team -->
+
+      <div class="container" id="oteam">
+        <div class="row">
+          <h1 class="text-center mt-5 mb-4 fw-bold">Our Team</h1>
+
+          <div class="col-lg-3 col-sm-6 my-4 col-11 mx-auto">
+            <div class="card border" id="abcrds">
+              <img class="img-fluid" src="ffImages/chef1.jpg" />
+              <div class="card-body text-center">
+                <a href="#"><h5 class="card-title">Richard Peterson</h5></a>
+                <p>Head Chef</p>
+              </div>
+
+              <div class="text-center" id="fonts2">
+                <a href="https://www.facebook.com/" target="_blank"
+                  ><i class="fa-brands fa-facebook-f" id="fb1"></i
+                ></a>
+                <a href="https://twitter.com/?lang=en" target="_blank"
+                  ><i class="fa-brands fa-twitter" id="twt1"></i
+                ></a>
+                <a href="https://www.instagram.com/" target="_blank"
+                  ><i class="fa-brands fa-instagram" id="inst1"></i
+                ></a>
+                <a
+                  href="https://support.google.com/answer/2451065?hl=en"
+                  target="_blank"
+                  ><i class="fa-brands fa-google-plus-g" id="gogle1"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-sm-6 my-4 col-11 mx-auto">
+            <div class="card border" id="abcrds">
+              <img class="img-fluid" src="ffImages/chef2.jpg" />
+              <div class="card-body text-center">
+                <a href="#"><h5 class="card-title">Amelia Lee</h5></a>
+                <p>Manager</p>
+              </div>
+
+              <div class="text-center" id="fonts2">
+                <a href="https://www.facebook.com/" target="_blank"
+                  ><i class="fa-brands fa-facebook-f" id="fb1"></i
+                ></a>
+                <a href="https://twitter.com/?lang=en" target="_blank"
+                  ><i class="fa-brands fa-twitter" id="twt1"></i
+                ></a>
+                <a href="https://www.instagram.com/" target="_blank"
+                  ><i class="fa-brands fa-instagram" id="inst1"></i
+                ></a>
+                <a
+                  href="https://support.google.com/answer/2451065?hl=en"
+                  target="_blank"
+                  ><i class="fa-brands fa-google-plus-g" id="gogle1"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-sm-6 my-4 col-11 mx-auto">
+            <div class="card border" id="abcrds">
+              <img class="img-fluid" src="ffImages/chef3.jpg" />
+              <div class="card-body text-center">
+                <a href="#"><h5 class="card-title">Sam Peterson</h5></a>
+                <p>Head Baker</p>
+              </div>
+
+              <div class="text-center" id="fonts2">
+                <a href="https://www.facebook.com/" target="_blank"
+                  ><i class="fa-brands fa-facebook-f" id="fb1"></i
+                ></a>
+                <a href="https://twitter.com/?lang=en" target="_blank"
+                  ><i class="fa-brands fa-twitter" id="twt1"></i
+                ></a>
+                <a href="https://www.instagram.com/" target="_blank"
+                  ><i class="fa-brands fa-instagram" id="inst1"></i
+                ></a>
+                <a
+                  href="https://support.google.com/answer/2451065?hl=en"
+                  target="_blank"
+                  ><i class="fa-brands fa-google-plus-g" id="gogle1"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-sm-6 my-4 col-11 mx-auto">
+            <div class="card border" id="abcrds">
+              <img class="img-fluid" src="ffImages/chef4.jpg" />
+              <div class="card-body text-center">
+                <a href="#"><h5 class="card-title">Jane Smith</h5></a>
+                <p>Pizza Chef</p>
+              </div>
+
+              <div class="text-center" id="fonts2">
+                <a href="https://www.facebook.com/" target="_blank"
+                  ><i class="fa-brands fa-facebook-f" id="fb1"></i
+                ></a>
+                <a href="https://twitter.com/?lang=en" target="_blank"
+                  ><i class="fa-brands fa-twitter" id="twt1"></i
+                ></a>
+                <a href="https://www.instagram.com/" target="_blank"
+                  ><i class="fa-brands fa-instagram" id="inst1"></i
+                ></a>
+                <a
+                  href="https://support.google.com/answer/2451065?hl=en"
+                  target="_blank"
+                  ><i class="fa-brands fa-google-plus-g" id="gogle1"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <footer>
+        <div class="container-fluid mt-5" id="ftr">
+          <div class="row" id="footer1">
+            <div class="col-sm-6 col-lg-4" id="offer">
+              <h4 class="ps-lg-4 ps-3 mt-5">What We Offer</h4>
+              <div class="row" id="offer1">
+                <div class="col-sm-5 col-6 ps-lg-4">
+                  <a href="#">Pizzas</a> <br />
+                  <a href="#">Burgers</a> <br />
+                  <a href="#">Salads</a>
+                </div>
+
+                <div class="col-sm-7 col-6">
+                  <a href="#">Drinks</a> <br />
+                  <a href="#">Seafood</a> <br />
+                  <a href="#">Drinks</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-sm-6 col-lg-3" id="info">
+              <h4 class="ps-lg-1 ps-3 mt-sm-5 mt-3">Information</h4>
+              <div class="row" id="info1">
+                <div class="col-sm-6 col-6 ps-lg-1">
+                  <a href="aboutus.html" target="_blank">About us</a> <br />
+                  <a href="#">Latest News</a> <br />
+                  <a href="#">Our Menu</a>
+                </div>
+
+                <div class="col-sm-6 col-6">
+                  <a href="accordian.html" target="_blank">FAQ</a> <br />
+                  <a href="#">Shop</a> <br />
+                  <a href="contact.html" target="_blank">Contact Us</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-5 col-sm-12 mt-sm-5 mt-3" id="nltr">
+              <h4 class="px-sm-3 ps-3">Newsletter</h4>
+              <p class="px-sm-3 mt-4 ps-3">
+                Sign up today for the latest news and updates.
+              </p>
+              <div class="input-group pe-lg-4 px-sm-3 px-3">
+                <input
+                  id="input"
+                  type="text"
+                  class="form-control p-sm-3 p-2"
+                  placeholder="Enter your E-mail"
+                />
+                <button class="btn btn-warning fw-bold text-white" id="clean">
+                  SUBSCRIBE
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <hr style="color: #cacaca; margin-top: 50px" />
+
+          <div class="row" id="footer2">
+            <div
+              class="col-lg-2 col-sm-4 col-6 ps-lg-4 py-3 text-warning"
+              id="footer21"
+            >
+              <i class="fa-solid fa-kitchen-set text-warning"></i>&nbsp;Your
+              Food
+            </div>
+
+            <div class="col-lg-2 col-sm-8 col-6 px-lg-3 py-3" id="footer22">
+              <a href="#"
+                ><span class="badge bg-primary"
+                  ><i class="fa-regular fa-thumbs-up"></i> Like
+                </span></a
+              >&nbsp;&nbsp;<a href="#">9.4K</a>
+            </div>
+
+            <div class="col-lg-3 col-md-4 px-4 py-3" id="footer23">
+              <i class="fa-solid fa-phone"></i>&nbsp;&nbsp;<a href="#"
+                >+92-XXX-XXXXXXX</a
+              >
+            </div>
+
+            <div class="col-lg-3 col-md-4 px-4 py-3" id="footer24">
+              <i class="fa-solid fa-envelope"></i>&nbsp;&nbsp;<a href="#"
+                >xyz@gmail.com</a
+              >
+            </div>
+
+            <div class="col-lg-2 col-md-4 px-4 py-3" id="ficons">
+              <a href="https://www.facebook.com/" target="_blank"
+                ><i class="fa-brands fa-facebook-f"></i></a
+              >&nbsp;&nbsp;
+              <a href="https://twitter.com/?lang=en" target="_blank"
+                ><i class="fa-brands fa-twitter"></i></a
+              >&nbsp;&nbsp;
+              <a href="https://www.instagram.com/" target="_blank"
+                ><i class="fa-brands fa-instagram"></i></a
+              >&nbsp;&nbsp;
+              <a
+                href="https://support.google.com/answer/2451065?hl=en"
+                target="_blank"
+                ><i class="fa-brands fa-google-plus-g"></i
+              ></a>
+            </div>
+          </div>
+
+          <hr style="color: #cacaca" />
+
+          <div class="row" id="footer3">
+            <div
+              class="col-lg-5 col-sm-12 col-11 mx-auto text-center py-2 py-sm-2 pt-lg-2 pb-lg-3"
+            >
+              <h6>514 S. Magnolia St. Orlando, FL 32806</h6>
+            </div>
+
+            <div
+              class="col-lg-7 col-sm-12 col-11 mx-auto text-center pb-3 pb-sm-3 pt-lg-2 pb-lg-3"
+            >
+              <h6>
+                © 2023. All Rights Reserved. Design by Template DevInk Solutions
+              </h6>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,435 @@
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	font-family: sans-serif;
+}
+
+#loader { 
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    background: #fff url('loader.gif') no-repeat center;
+    z-index: 9999;
+}
+
+#navtop{
+	background-color: #6D6D6D;
+	color: white;
+	padding:12px 0;
+}
+
+#cno{
+	display: flex;
+	align-self: center;
+	justify-content: center;
+}
+
+#cno i{
+	font-size: 20px;
+	color: white;
+}
+
+#cno i:hover{
+	color: #40DB30;
+}
+
+#cno a{
+	text-decoration: none;
+	color: white;
+}
+
+#cno a:hover{
+	color: yellow;
+}
+
+#loct{
+	display: flex;
+	align-self: center;
+	justify-content: center;
+}
+
+#loct i{
+	font-size: 20px;
+	color: white;
+}
+
+#loct i:hover{
+	color: red;
+}
+
+#loct a{
+	text-decoration: none;
+	color: white;
+}
+
+#loct a:hover{
+	color: yellow;
+}
+
+#fonts i{
+	color: white;
+	height: 30px;
+	width: 30px;
+	font-size: 16px;
+	padding-top: 7px;
+	background-color: #5A5A5A;
+	border-radius: 5px;
+}
+
+#fb:hover{
+	border-radius: 20%;
+	color: blue;
+	background-color: white;
+}
+
+#twt:hover{
+	border-radius: 20%;
+	color: blue;
+	background-color: white;
+}
+
+#inst:hover{
+	border-radius: 20%;
+	color: pink;
+	background-color: white;
+}
+
+#gogle:hover{
+	border-radius: 20%;
+	color: red;
+	background-color: white;
+}
+
+/*manin-navbar*/
+
+#mainnav{
+	background-color: rgba(0, 0, 0, 0.8);
+}
+
+#menubar{
+	font-size: 25px;
+}
+
+#navbicon {
+	font-size: 25px;
+}
+
+#navbicon:hover{
+	color: blue;
+}
+
+#navlist li a{
+	text-decoration: none;
+	color: white;
+	font-size: 19px;
+}
+
+#navlist li a:hover{
+	color: #EEC80C;
+}
+
+/*FAQ*/
+
+.faq1{
+	overflow: hidden;
+    position: relative;
+    }
+
+.faq2{
+	width: 100%;
+	height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.3);
+    }
+
+.faq2 h1{
+	text-transform: uppercase;
+	letter-spacing: 8px;
+	color: yellow;
+	font-size: 400%;
+	margin: 16.5% 0 0 0;
+}
+
+.faq2 span{
+	position: relative;
+	font-weight: bold;
+	top: -25px;
+	font-size: 40px;
+	color: black;
+}
+
+#accordian h1{
+	color: orange;
+}
+
+.accordion-header button{
+	color: #E7CF28;
+}
+
+.accordion-body{
+	color: #C8C8C8;
+}
+
+/*Footer*/
+
+#ftr{
+	background-color: #343a40;
+}
+
+#footer1{
+	color: white;
+	background-color: #343a40;
+}
+
+#footer1 p{
+	color: #777777;
+}
+
+/*#offer h4{
+	margin-top: 50px;
+}*/
+
+#offer1{
+	margin: 25px 0 30px 0;
+}
+
+#offer1 a{
+	text-decoration: none;
+	color: #D3D3D3;
+	line-height: 35px;
+}
+
+#offer1 a:hover{
+	color: #F8F109;
+}
+
+/*#info h4{
+	margin-top: 50px;
+}*/
+
+#info1{
+	margin: 25px 0 30px 0;
+}
+
+#info1 a{
+	text-decoration: none;
+	color: #D3D3D3;;
+	line-height: 35px;
+}
+
+#info1 a:hover{
+	color: #F8F109;
+}
+
+/*#nltr h4{
+	margin: 50px 0 35px 0;
+}*/
+
+
+#footer2{
+	color: white;
+	background-color: #343a40;
+}
+
+#footer21{
+	font-size: 19px;
+}
+
+#footer21 i{
+	text-align: center;
+	margin-left: 12px;
+	font-size: 25px;
+}
+
+#footer22 a{
+	text-decoration: none;
+	font-size: 18px;
+	color: white;
+}
+
+#footer23 i{
+	width: 30px;
+	height: 30px;
+	color: white;
+	text-align: center;
+	padding-top: 8px;
+	border-radius: 5px;
+	background-color: #676668;
+}
+
+#footer23 a{
+	text-decoration: none;
+	font-size: 17px;
+	color: white;
+}
+
+#footer23 a:hover{
+	color: #F8F82A;
+}
+
+#footer24 i{
+	width: 30px;
+	height: 30px;
+	color: white;
+	text-align: center;
+	padding-top: 7px;
+	border-radius: 5px;
+	background-color: #676668;
+}
+
+#footer24 a{
+	text-decoration: none;
+	color: white;
+}
+
+#footer24 a:hover{
+	color: #F8F82A;
+}
+
+#ficons i{
+	width: 30px;
+	height: 30px;
+	color: white;
+	text-align: center;
+	padding-top: 8px;
+	border-radius: 5px;
+	background-color: #676668;
+}
+
+#ficons i:hover{
+	background-color: #6046b6;
+}
+
+#footer3 h6{
+	font-size: 17px;
+	font-weight: bold;
+	color: #777777;
+	background-color: #343a40;
+}
+
+/*Media Queries*/
+
+@media screen and (max-width: 319px){
+
+.faq1 img{
+	width: 100%;
+	height: 350px;
+	object-fit: cover;
+}
+
+.faq2 h1{
+	color: white;
+	font-size: 400%;
+	margin: 125px 0 0 0;
+}
+
+.faq2 span{
+	top: -25px;
+}
+}
+
+@media screen and (max-width: 575px) and (min-width: 320px){
+
+.faq1 img{
+	width: 100%;
+	height: 420px;
+	object-fit: cover;
+}
+
+.faq2 h1{
+	color: orange;
+	font-size: 450%;
+	margin: 140px 0 0 0;
+}
+
+.faq2 span{
+	color: yellow;
+}
+}
+
+@media screen and (max-width: 767px) and (min-width: 576px){
+
+.faq1 img{
+	width: 100%;
+	height: 450px;
+	object-fit: cover;
+}
+
+.faq2 h1{
+	color: orange;
+	font-size: 450%;
+	margin: 160px 0 0 0;
+}
+
+.faq2 span{
+	color: yellow;
+	top: -25px;
+}
+}
+
+@media screen and (max-width: 1023px) and (min-width: 768px){
+
+.faq1 img{
+	width: 100%;
+	height: 450px;
+	object-fit: cover;
+}
+
+.faq2 h1{
+	color: orange;
+	font-size: 500%;
+	margin: 160px 0 0 0;
+}
+
+.faq2 span{
+	color: yellow;
+	top: -25px;
+}
+}
+
+@media screen and (max-width: 1439px) and (min-width: 1024px){
+
+.faq1 img{
+	width: 100%;
+	height: 500px;
+	object-fit: cover;
+}
+
+.faq2 h1{
+	color: orange;
+	font-size: 500%;
+	margin: 175px 0 0 0;
+}
+
+.faq2 span{
+	color: yellow;
+	top: -25px;
+}
+} 
+
+@media screen and (min-width: 1440px){
+
+.faq1 img{
+	width: 100%;
+	height: 450px;
+	object-fit: cover;
+}
+
+.faq2 h1{
+	color: orange;
+	font-size: 550%;
+	margin: 160px 0 0 0;
+}
+
+.faq2 span{
+	color: yellow;
+	top: -25px;
+}
+}
